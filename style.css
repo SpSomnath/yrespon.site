@@ -12,6 +12,11 @@
     height: 100vh;
 }
 
+/* welcome */
+.welcome{
+    margin: 500px;
+}
+
 .header{
     height: 70px;
     width: 100%;
