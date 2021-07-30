@@ -48,6 +48,7 @@
     float: right;
     height: 100%;
     padding: 0 20px;
+    /* position: relative; */
 }
 .navigation a {
     height: 100%;
@@ -61,14 +62,22 @@
     
 }
 
-/* profile page */
+                            /* profile page */
 
 .profilePage{
     padding: 150px 25px;
-    display: flexbox;
-    
-    
+    /* display: flexbox; */
+    /* position: absolute; */
+    /* display: table-row; */
+    /* float: inline-start;   */
 }
+
+.socialPage{
+    display: flex;
+
+}
+
+
 .profilePage a:hover,
 .profilePage a:active {
     text-decoration: none;
@@ -78,8 +87,9 @@
 
 /* social page  */
 .respon_facebook{
-    height: 25px;
+    height: 80px;
     width: 25px;
+    /* display: table-cell; */
 }
 .profilePicture{
     border: radius 50%;
@@ -87,8 +97,6 @@ background-color: black;
 height: 195px;
 width: 195px;
 border-radius: 50%;  
-/* padding-left: 8px; */
-/* padding-top: 8px; */
 padding: 5px 5px 5px 5px;
 }
 .picture{
