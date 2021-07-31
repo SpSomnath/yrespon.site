@@ -28,8 +28,8 @@
     display: table;
 }
 .inner-container{
-    height: 100%;
-    width: 95%;
+    height: auto%;
+    width: auto;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -48,11 +48,12 @@
     float:left;
 }
 .navigation {
-    float: right;
+    /* float: right; */
     height: 100%;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    position: relative;
     /* position: relative; */
 }
 .navigation a {
@@ -84,12 +85,12 @@
 
 }
 
-.profilePage a:hover,
+/* .profilePage a:hover,
 .profilePage a:active {
     text-decoration: none;
     padding: 4px;
     background: #fff;
-}
+} */
 
 .profilePicture{
     border: radius 50%;
