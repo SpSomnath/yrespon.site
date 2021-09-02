@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+.container{
+    box-shadow: 0 0 5px grey;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 3.2rem;
+    z-index: 999;
+}
+.logo{
+    font-family: 'Libre Baskerville',serif;
+    color: #48487f;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin: 2.2rem;
+    flex-direction: column;
+    line-height: 0.5rem;
+    position: ABSO;
+}
+.nav-toggle{
+    display: none;
+}
+.nav-toggle-label{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.nav-toggle-lebel span,
+.nav-toggle-lebel span::after,
+.nav-toggle-lebel span::before{
+    display: block;
+    background-color: #48487f;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+    color: white;
+} 
+.nav-toggle-lebel span::after,
+.nav-toggle-lebel span::before{
+    content: '';
+    position: absolute;
+}
+.nav-toggle-lebel span::before{
+    bottom: 7px;
+}
+.nav-toggle-lebel span::after{
+    top: 7px;
+}
+
+.link{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    height: 100vh;
+    width: 8rem;
+    background-color: whitesmoke;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+}
+.link ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.link li{
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+}
+.link a{
+    color: #45457f;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+}
+.link a:hover{
+    color: #000;
+}
+.nav-toggle:checked  ~ .link {
+transform: scale(1,1);
+}
+.nav-toggle:checked ~.link a{
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .nav-toggle-lebel  span{
+        display: none;
+    }
+    .container{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr auto minmax(300px, 1fr) 1fr;
+    
+}
+    .logo{
+        grid-column: 1/3;
+        position: absolute;
+        padding-left: 30px;
+    }
+    .link{
+        all: unset;
+        grid-column: 3/5;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .link a{
+        opacity:1;
+        font-size: 1rem ;
+    }
+    .link ul{
+        display: flex;
+        justify-content: center;
+        padding-right: 30px;
+    }
+    .link li{
+        padding-bottom:0px;
+        margin-left: 3em;
+    }
+    .link a::before{
+        content: ' ';
+        display: block;
+        height: 5px;
+        background: black;
+        position:relative;
+        width: -.75em;
+        left: 0;
+        right: 0;
+        transform: scale(0,1);
+        transition: transform ease-in-out 250ms;
+
+    }
+    .link a:hover::before{
+        transform: scale(1,1);
+    }
+    
+}
