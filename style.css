@@ -28,8 +28,8 @@
     display: table;
 }
 .inner-container{
-    height: auto%;
-    width: auto;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -50,7 +50,7 @@
 .navigation {
     /* float: right; */
     height: 100%;
-    /* padding: 0 20px; */
+    padding: 0 auto;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -59,8 +59,13 @@
 .navigation a {
     height: 100%;
     float: right;
-    padding: 20px 10px;
-    margin: auto 1vh;
+    /* padding: 25px 5px; */
+    align-items: center;
+    
+    padding: 0 25px;
+    /* justify-content:space-between; */
+    display: flex;
+    margin: auto;
     color: black;
     font-weight: 1000;
     font-size: 20px;
@@ -77,12 +82,17 @@
     /* display: table-row; */
     /* float: inline-start;   */
     display: flex;
+    align-items: center;
+    width: auto;
+   /* height: auto;
+justify-content: space-around;
+flex-wrap: wrap; */
 }
 
 .socialPage{
     display: flex;
     flex-wrap: wrap;
-
+    width: 100%;
 }
 
 /* .profilePage a:hover,
