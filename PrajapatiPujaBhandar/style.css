@@ -101,32 +101,24 @@ transform: scale(1,1);
 .nav-toggle:checked ~.link a{
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
-}
- .slider img {
-    /* align-items: center; */
-    width: 100%;
-    /* height: auto; */
-    /* position: relative; */
-    padding: 3.5rem;
-    /* padding-top: 0; */
 
-} 
+}
+
 .banner{
     padding-top: 3.5rem;
-    height: 400px;
-    width: 100%;
-    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.img-slides{
+    display: flex;
     overflow: hidden;
 }
-.slider{
-    border-radius: 10px;
+.img-slides img{
+    width: 800px;
+    height: auto;
+    overflow: hidden;
 }
-.slides{
-    display: flex;
-    /* overflow: hidden; */
-
-}
-
 
 
 
@@ -187,11 +179,5 @@ transform: scale(1,1);
     .link a:hover::before{
         transform: scale(1,1);
     }
-    .slider img {
-        padding: 15rem;
-        padding-top: 0;
-        padding-bottom: 0;
-    } 
-    
     
 }
