@@ -62,10 +62,17 @@
     display: none;
 }
 @media screen and (max-width: 450px) {
-    /* .profile{
-        margin: 5%;
-        width: 90%;
-    } */
+    .social ul li{
+        display: table;
+        float: initial;
+        padding: 10px;
+        text-align: center;
+    
+    
+    }
+    .profile{
+        height: 450px;
+    }
     .logo-container{
         padding-left: 50px;
     }
