@@ -4,19 +4,11 @@
     list-style: none;
     list-style: none;
     text-decoration: none;
-    /* text-decoration: none; */
-    /* background-color: rgb(47, 47, 160); */
 }
 .body{
     background-color: white;
     height: 100vh;
 }
-
-/* welcome */
-.welcome{
-    margin: 85px;
-}
-
 .header{
     height: 70px;
     width: 100%;
@@ -49,27 +41,98 @@
     float:left;
 }
 .navigation {
-    /* float: right; */
     height: 100%;
     padding: 0 auto;
     display: flex;
     justify-content: space-between;
     position: relative;
-    /* position: relative; */
 }
 .navigation a {
     height: 100%;
     float: right;
-    /* padding: 25px 5px; */
     align-items: center;
-    
     padding: 0 25px;
-    /* justify-content:space-between; */
     display: flex;
     margin: auto;
     color: black;
     font-weight: 1000;
-    font-size: 20px;
-    /* position: absolute; */
-    
+    font-size: 20px;    
 }
+.nav-toggle{
+    display: none;
+}
+@media screen and (max-width: 450px) {
+    .logo-container{
+        padding-left: 50px;
+    }
+    .toggle{
+        color: red;git git 
+        /* display: none; */
+        /* background: red; */
+        direction: rtl;
+        align-content: center;
+        padding:35px;
+        padding-right: 10px;
+    }
+    .navigation{
+        all: unset;
+        display: none;
+        /* opacity: 0%; */
+        /* display: table; */
+        position: absolute;
+        margin-top: 35px;
+        background-color: #f7f7f7;
+        box-shadow:5px  3px 3px #f1efef ;
+
+        height: 100vh;
+        margin-right: -20px;
+        /* display: none; */
+ 
+    }
+    .navigation li a{
+        margin: 20px;
+    }
+    
+    .inner-container{
+        all: unset;
+    }
+    .nav-toggle{
+        display: block;
+    }
+    .nav-toggle{
+    display: none;
+    }
+    .nav-toggle-label{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .nav-toggle-lebel span,
+    .nav-toggle-lebel span::after,
+    .nav-toggle-lebel span::before{
+        display: block;
+        background-color: #48487f;
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        position: relative;
+        color: white;
+    } 
+    .nav-toggle-lebel span::after,
+    .nav-toggle-lebel span::before{
+        content: '';
+        position: absolute;
+    }
+    .nav-toggle-lebel span::before{
+        bottom: 7px;
+    }
+    .nav-toggle-lebel span::after{
+        top: 7px;
+    }
+    .nav-toggle:checked ~ .navigation {
+        opacity: 100%;
+        display: table;
+    }
+
+}
+
