@@ -4,74 +4,11 @@
     list-style: none;
     list-style: none;
     text-decoration: none;
-    /* text-decoration: none; */
-    /* background-color: rgb(47, 47, 160); */
+
 }
 .body{
     background-color: white;
     height: 100vh;
-}
-
-/* welcome */
-.welcome{
-    margin: 85px;
-}
-
-.header{
-    height: 70px;
-    width: 100%;
-
-    position: fixed;
-    box-shadow:0 3px #f1efef ;
-    background-color: #f7f7f7;
-    /* border-bottom: 1mm white; */
-    display: table;
-    z-index: 2;
-}
-.inner-container{
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.logo-container{
-    height: 100%;
-    float: left;
-    display: flex;
-    justify-content: flex-start;
-    padding: 0 15px;
-    
-}
-.img{
-    display: table;
-    float:left;
-}
-.navigation {
-    /* float: right; */
-    height: 100%;
-    padding: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    /* position: relative; */
-}
-.navigation a {
-    height: 100%;
-    float: right;
-    /* padding: 25px 5px; */
-    align-items: center;
-    
-    padding: 0 25px;
-    /* justify-content:space-between; */
-    display: flex;
-    margin: auto;
-    color: black;
-    font-weight: 1000;
-    font-size: 20px;
-    /* position: absolute; */
-    
 }
 
                     /* content style */
@@ -112,7 +49,7 @@
     flex-direction: column;    
 }
 .social ul li  :hover{
-    background: black;
+    background: rgb(116, 113, 113);
     color: white;
     border-radius: 5px;
     box-shadow:2px 3px #a09b9b ;
@@ -122,6 +59,24 @@
     float: left;
     padding: 10px;
 }
+
 .form{
-    padding-top: 500px;
+    padding: 75px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
