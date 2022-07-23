@@ -46,7 +46,8 @@
     color: black;
     display: flex;
     align-items: center;
-    flex-direction: column;    
+    flex-direction: column;  
+  
 }
 .social ul li  :hover{
     background: rgb(116, 113, 113);
@@ -56,12 +57,21 @@
 }
 .social ul li{
     display: table;
-    float: left;
+    /* display: flex; */
+    /* flex-direction: row; */
+    float:left;
     padding: 10px;
+
+
 }
 
 .form{
     padding: 75px;
+}
+.doc_link{
+    position: absolute;
+    padding-top: 80px;
+
 }
 
 

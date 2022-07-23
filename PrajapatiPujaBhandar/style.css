@@ -28,7 +28,7 @@ body{
     margin: 2.2rem;
     flex-direction: column;
     line-height: 0.5rem;
-    position: ABSO;
+    position: absolute;
 }
 .nav-toggle{
     display: none;

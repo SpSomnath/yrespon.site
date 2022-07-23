@@ -67,8 +67,8 @@
         float: initial;
         padding: 10px;
         text-align: center;
-    
-    
+        align-items:inherit;
+       
     }
     .profile{
         height: 450px;
