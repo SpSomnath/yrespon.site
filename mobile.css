@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+    .nevItem{
+        display: none;
+    }
+    .profile{
+        flex-wrap: wrap;
+        flex-direction:column-reverse;
+        justify-content: first baseline;
+    }
+    .intro{
+        margin-top: -60px;
+    }
+    .blog{
+        position: relative;
+        padding-top: 140px;
+        /* background-color: red; */
+    }
+
+}

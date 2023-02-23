@@ -1,0 +1,31 @@
+.blog{
+    position: relative;
+    color: black;
+    /* background-color: red; */
+    top: 500px;
+    padding-top: 80px; 
+
+}
+
+.post{
+    display: flex;
+    /* border: solid 2px gray; */
+    width: 100%;
+}
+.post a{
+    display: flex;
+    color: black;
+    width: 100%;
+    margin:10px;
+    text-decoration: none;
+    /* background-color: blue; */
+    border-radius: 10px;
+    background-color:#d9d9d9;
+    /* border: solid 2px gray; */
+
+}
+.post a img{
+    margin: 10px;
+    padding: 20px;
+    border-right: solid 2px black;
+}

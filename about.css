@@ -1,0 +1,29 @@
+.about{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    font-size: 1.5em;
+    padding-top: 120px;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* border: solid 2px blue; */
+}
+
+.card{
+    display: flex;
+    display: flex;
+    margin: 20px;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid green; */
+
+}

@@ -1,0 +1,33 @@
+.projects{
+    /* background-color: red; */
+    margin-top: 630px;
+    padding-top: 40px;
+
+}
+.container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    align-items: center;
+    /* width: 80%; */
+
+    
+    /* background-color: green; */
+
+}
+.container a{
+    text-decoration: none;
+    background-color: gray;
+    /* width: 20%; */
+
+    color: black;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.container a img {
+    margin-bottom: -10px;
+}
