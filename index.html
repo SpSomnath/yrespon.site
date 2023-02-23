@@ -133,13 +133,14 @@
     <section class="contact" id="contact">
         <h3>Get in touch</h3>
         <div class="con">
-            <form  class="form"action="">
+            <form  class="form"action="" method="POST" data-netlify="true">
                 <label for="">Name</label><br>
-                <input type="text" required placeholder="Enter Your name"><br>
+                <input type="text" required placeholder="Enter Your name" name="name"><br>
                 <label for="">Email</label><br>
-                <input type="email" required placeholder="Enter your Email Address"><br>
+                <input type="email" required placeholder="Enter your Email Address" name="email"><br>
                 <label for="">Message</label><br>
-                <input type="text" required label="message" placeholder="Enter Your message"><br>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+                <!-- <input type="text" required cols="30" rows="10" label="message" placeholder="Enter Your message"><br> -->
                 <button class="submit" type="submit">Submit</button>
           </form>
          </div>
