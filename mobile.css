@@ -1,19 +1,23 @@
 @media screen and (max-width: 768px) {
-    .nevItem{
-        display: none;
-    }
-    .profile{
-        flex-wrap: wrap;
-        flex-direction:column-reverse;
-        justify-content: first baseline;
-    }
-    .intro{
-        margin-top: -60px;
-    }
-    .blog{
-        position: relative;
-        padding-top: 140px;
-        /* background-color: red; */
-    }
-
+ body{
+  margin: 0 auto;
+  width: auto;
+  
+ }
+ .header{
+  width: 100%;
+  /* overflow: hidden; */
+ }
+ .nevItem{
+  display: none;
+  overflow: hidden;
+ }
+ .profile{
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+ }
+ .blog{
+  position:initial;
+  padding-top: 5000px;
+ }
 }

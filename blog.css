@@ -2,11 +2,13 @@
     position: relative;
     color: black;
     /* background-color: red; */
-    top: 500px;
-    padding-top: 80px; 
+    top: 650px;
+    padding-top: 100px; 
 
 }
-
+.blog h2{
+    text-align: center;
+}
 .post{
     display: flex;
     /* border: solid 2px gray; */
@@ -20,7 +22,9 @@
     text-decoration: none;
     /* background-color: blue; */
     border-radius: 10px;
-    background-color:#d9d9d9;
+    background: linear-gradient(180deg, #7f00ff,rgb(219, 120, 234));
+
+    /* background-color:#d9d9d9; */
     /* border: solid 2px gray; */
 
 }

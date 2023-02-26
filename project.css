@@ -1,8 +1,11 @@
 .projects{
     /* background-color: red; */
-    margin-top: 580px;
+    margin-top: 700px;
     padding-top: 40px;
 
+}
+.projects h2{
+    text-align: center;
 }
 .container{
     padding-top: 20px;
@@ -19,7 +22,9 @@
 }
 .container a{
     text-decoration: none;
-    background-color: gray;
+    /* background-color: gray; */
+    background: linear-gradient(180deg, #7f00ff,rgb(219, 120, 234));
+
     /* width: 20%; */
 
     color: black;

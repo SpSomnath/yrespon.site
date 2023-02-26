@@ -19,7 +19,8 @@ body {
     justify-content: space-around;
     align-items: center;
     position: fixed;
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
+    background-color: rgb(246, 213, 246);
     box-shadow: 0 2px rgb(165, 165, 165);
     /* border-bottom: 2px solid gray; */
     z-index: 10;
@@ -27,7 +28,7 @@ body {
 
 
 .nevItem {
-    width: 60%;
+    /* width: 60%; */
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -52,13 +53,13 @@ body {
 .profile {
     position:absolute;
     display: flex;
-    width: auto;
+    /* width: auto; */
     align-items: center;
     justify-content: space-around;
     padding-top: 75px;
-    height: auto;
-    letter-spacing: 2px;
-    margin-left: 1px;
+    /* height: auto; */
+    /* letter-spacing: 2px;*/
+    margin-left: 10px;
     width: 95%;
     font-family: 'MuseoModerno';
     z-index: 9;
@@ -90,9 +91,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: bold;
-    border: solid 2px  green;
+    /* border: solid 2px  green; */
     border-radius: 10px;
-    background: linear-gradient(35deg, green,#3d535f);
+    background: linear-gradient(45deg, #7f00ff,pink);
+
 }
 
 .link {
