@@ -136,22 +136,26 @@
     <section class="contact" id="contact">
         <h3>Get in touch</h3>
         <div class="con">
-            <form 
-            name="contact"
-            action="/sucess.html"
-            method="POST"
-            data-netlify="true"
-            name="contact" method="POST" data-netlify="true"
-            class="form">
-                <label for="">Name</label><br>
-                <input type="text" required placeholder="Enter Your name" name="name"><br>
-                <label for="">Email</label><br>
-                <input type="email" required placeholder="Enter your Email Address" name="email"><br>
-                <label for="">Message</label><br>
-                <textarea  type="message" name="" id="" cols="30" rows="5"></textarea>
-                <!-- <input type="text" required cols="30" rows="10" label="message" placeholder="Enter Your message"><br> -->
-                <button class="submit" type="submit">Submit</button>
+          <form 
+          action="/sucess.html"
+          class="form" 
+          name="contact" 
+          method="POST" data-netlify="true">
+            <p>
+              <label>Name:<br> <input type="text" required placeholder="Enter Your name" name="name" /></label>
+            </p>
+            <p>
+              <label>Your Email:<br> <input type="email" required placeholder="Enter your Email Address" name="email" /></label>
+            </p>
+            <p>
+              <label>Message: <br><textarea name="message"required placeholder="Enter your Message here" cols="30" rows="5"></textarea></label>
+            </p>
+            <p>
+              <button class="submit" type="submit">Send</button>
+            </p>
           </form>
+          
+
          </div>
          <hr width="80%">
          <p>You can also mail me </p>
